@@ -1,6 +1,6 @@
 <html>
     <head>
-    
+    <title>Web App – Simple Interest Calculator</title>
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -8,7 +8,7 @@
         <h1>Simple Interest Calculator</h1>
 
         Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="range" min="0" max="10" step="0.1" id="rate"> <span id="result"></span><br><br/>
+        Rate <input type="range" min="1" max="20" step="0.5" id="rate"> <span id="result"></span><br><br/>
        <span id="yearT"> No. of Years</span> <select name="years" id="years">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -20,7 +20,7 @@
 
         <button onclick="showRes()" >Compute Interest</button>
             <div id="interestR"></div>
-         
+         <p>Ⓒ Everyone Can Get Rich</p>
     </div>
     <script src="script.js"> 
     

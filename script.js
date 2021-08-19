@@ -2,7 +2,7 @@ function showInt(){
     
     var r=document.getElementById("rate").value;
     
-    document.getElementById("result").innerHTML=r;
+    document.getElementById("result").innerHTML=r+"%";
     
 }
 
