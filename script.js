@@ -8,6 +8,7 @@ function showInt(){
 
 
 document.getElementById("rate").addEventListener("click",showInt);
+document.getElementById("rate").addEventListener("keyup",showInt);
 
 
 
